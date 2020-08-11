@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+body{
+}
+.header{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.header>img{
+    width: 150px;
+    height: 50px;
+    margin-left: 150px;
+}
+.searchbar>input{
+    width: 400px;
+    height: 35px;
+    border: 1px solid rgb(240, 206, 206);
+    outline: none;
+    padding: 0px 25px;
+    border-radius: 99px;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+.searchbar>a>i{
+    position: absolute;
+    top: 17px;
+    left: 675px;
+    color: rgb(70, 68, 68);
+}
+.header>ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 25px;
+}
+.header>ul li a{
+    text-decoration: none;
+    color: rgb(61, 60, 60);
+    font-weight: bolder;
+
+}
+.gap1{
+    width: 100%;
+    height: 100px;
+}
+
+/* side dropdown */
+
+.drop{
+    width: 150px;
+    height: 475px;
+    padding-left: 20px;
+}
+.drop ul{
+    list-style: none;
+    position: relative;
+}
+.drop a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: .5s all;
+    padding: 5px 15px;
+}
+.drop a:hover{
+    background-color: blanchedalmond;
+}
+.drop ul li{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid rgb(179, 178, 178);
+}
+.sub li{
+    border-bottom: 1px dotted rgb(250, 217, 217);
+    border-left: 5px solid rgb(248, 117, 117);
+}
+.sub{
+    display: none;
+}
+.drop ul>li:hover .sub{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    flex-direction: column;
+    z-index: 1;
+    
+}
+.sub2>li{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+.sub3>li{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+.sub4>li{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+
+    z-index: 1;
+}
+.sub5>li{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    
+    z-index: 1;
+}
+.drop>h1{
+    color: red;
+    text-decoration: dotted underline;
+}
+
+.gap2{
+    width: 100%;
+    height: 50px;
+}
+/* middle catagoies */
+
+.catagories{
+    width: 900px;
+    height: 2000px;
+    background-color: rgb(253, 244, 244);
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    flex-direction: column;
+}
+/* bag item */
+.C_bag{
+    width: 100%px;
+    height: 350px;
+    display: flex;
+    padding-left: 60px;
+    align-content: center;
+    align-items: center;
+}
+.b1,.b2,.b3,.b4{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.b1>img{
+    width: 200px;
+    height: 150px;
+}
+.b2>img{
+    width: 200px;
+    height: 150px;
+}
+.b3>img{
+    width: 200px;
+    height: 150px;
+
+}
+.b4>img{
+    width: 200px;
+    height: 150px;
+}
+/* shoe items */
+.C_shoe{
+    width: 100%px;
+    height: 350px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.s1,.s2,.s3,.s4{
+    width: 200px;
+    height: 250px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.s1>img{
+    width: 200px;
+    height: 150px;
+}
+.s2>img{
+    width: 200px;
+    height: 150px;
+}
+.s3>img{
+    width: 200px;
+    height: 150px;
+
+}
+.s4>img{
+    width: 200px;
+    height: 150px;
+}
+
+/* watch items */
+.C_watch{
+    width: 100%px;
+    height: 350px;
+    display: flex;
+    padding-left: 60px;
+    align-content: center;
+    align-items: center;
+}
+.w1,.w2,.w3,.w4{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.w1>img{
+    width: 200px;
+    height: 150px;
+}
+.w2>img{
+    width: 200px;
+    height: 150px;
+}
+.w3>img{
+    width: 200px;
+    height: 150px;
+
+}
+.w4>img{
+    width: 150px;
+    height: 150px;
+}
+
+/* television items */
+
+.C_Tv{
+    width: 100%px;
+    height: 350px;
+    display: flex;
+    padding-left: 60px;
+    align-content: center;
+    align-items: center;
+}
+.t1,.t2,.t3,.t4{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.t1>img{
+    width: 200px;
+    height: 150px;
+}
+.t2>img{
+    width: 200px;
+    height: 150px;
+}
+.t3>img{
+    width: 200px;
+    height: 150px;
+
+}
+.t4>img{
+    width: 200px;
+    height: 150px;
+}

@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+/* header seation */
+.header{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.header>img{
+    width: 150px;
+    height: 50px;
+    margin-left: 150px;
+}
+.searchbar>input{
+    width: 400px;
+    height: 35px;
+    border: 1px solid rgb(240, 206, 206);
+    outline: none;
+    padding: 0px 25px;
+    border-radius: 99px;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+.searchbar>a>i{
+    position: absolute;
+    top: 17px;
+    left: 675px;
+    color: rgb(70, 68, 68);
+}
+.header>ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 25px;
+}
+.header>ul li a{
+    text-decoration: none;
+    color: rgb(61, 60, 60);
+    font-weight: bolder;
+}
+.gap1{
+    width: 100%;
+    height: 200px;
+}
+    /* About Section */
+.main_box{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+}
+.main_box>h4{
+    position: absolute;
+    top: -30px;
+    left: 50px;
+    font-size: 35px;
+    color: rgb(110, 110, 110);
+}
+.About_box{
+    width: 550px;
+    height: 250px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 5px 15px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background: rgb(248,234,249);
+    background: linear-gradient(180deg, rgba(248,234,249,1) 0%, rgba(238,209,246,1) 100%);border-radius: 10px;
+}
+
+.About_box>h1{
+    position: absolute;
+    display: flex;
+    top: 25px;
+    left: 25%;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    
+}
+.About_box:hover{
+    
+    width: 560px;
+    height: 260px;
+
+}
+/* Team Member Section */
+.team{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-wrap: wrap;
+    padding-left: 140px;
+}
+.team>h1{
+    position: absolute;
+    font-size: 40px;
+    top: -60px;
+    left: 50px;
+    color:rgb(110, 110, 110) ;
+}
+.t1{
+    width: 300px;
+    display: flex;
+    height:260 ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 239, 248);
+    margin-left: 20px;
+    border: 1px solid rgb(247, 184, 184);
+    border-radius: 20px ;
+}
+.t1>div>img{
+    width: 149px;
+    height: 154px;
+    border-radius: 99px;
+}
